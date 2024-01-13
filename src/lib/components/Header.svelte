@@ -8,7 +8,7 @@
 
 <style>
 nav{
-    height: 70px;
+    height: 60px;
 }
 a{
     font-weight: 700;

@@ -27,7 +27,7 @@
 <main>
 	<Header />
 	<div class="content px-3">
-		<div class="card border rounded-4 py-2 shadow mb-3">
+		<div class="card border rounded-4 py-2 shadow mb-2">
 			<h5 class="text-center">CPU Metrics</h5>
 			{#if cpu.length > 0}
 				<ul class="list-group list-group-flush mx-3 mb-2">
@@ -39,7 +39,7 @@
 				<p>No metrics available.</p>
 			{/if}
 		</div>
-		<div class="card border rounded-4 py-2 shadow mb-3">
+		<div class="card border rounded-4 py-2 shadow mb-2">
 			<h5 class="text-center">Memory Metrics</h5>
 			{#if memory.length > 0}
 				<ul class="list-group list-group-flush mx-3 mb-2">
@@ -105,7 +105,7 @@
 		height: 100vh;
 		overflow-x: hidden;
 		overflow-y: auto;
-		padding-top: 20px;
+		padding-top: 10px;
 		padding-bottom: 30px;
 	}
 	h5 {
