@@ -1,11 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
 	import io from 'socket.io-client';
-	import Header from '../lib/components/Header.svelte';
 
-	// export let data;
+	export let data;
 
-	const socket = io('https://api-server-monitoring.alan.web.id');
+	const socket = io(data.data);
 
 	let cpu = [];
 	let memory = [];
