@@ -3,9 +3,9 @@
 	import io from 'socket.io-client';
 	import Header from '../lib/components/Header.svelte';
 
-	export let data;
+	// export let data;
 
-	const socket = io(data.data); // Ganti dengan URL Socket.IO server Anda
+	const socket = io('https://api-server-monitoring.alan.web.id'); 
 
 	let cpu = [];
 	let memory = [];
