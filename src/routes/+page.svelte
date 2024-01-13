@@ -102,7 +102,7 @@
 		height: 100vh;
 		overflow-x: hidden;
 		overflow-y: auto;
-		padding-top: 10px;
+		padding-top: 70px;
 		padding-bottom: 30px;
 	}
 	h5 {

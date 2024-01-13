@@ -8,7 +8,9 @@
 </svelte:head>
 
 <main>
-	<Header />
+	<div class="header position-absolute top-0 start-50 translate-middle-x">
+		<Header />
+	</div>
 	<div>
 		<slot />
 	</div>
@@ -16,6 +18,10 @@
 
 <style>
 	main {
-		overflow-x: hidden;
+		overflow: hidden;
+	}
+	.header {
+		width: 100%;
+		z-index: 1;
 	}
 </style>
